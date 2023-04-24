@@ -205,7 +205,7 @@ void metodo(){
       
     
       
-    //VISIBILIDADE-Métodos,atributos e classes
+    //VISIBILIDADE/ENCAPSULAMENTO-Métodos,atributos e classes
     /*
     -PUBLIC- Tudo livre
     -PRIVATE - só pode ser usado na mesma classe e nem herdadods
@@ -236,7 +236,24 @@ void metodo(){
 
 //TRATAMENTPS EXCECEPTION
  
-//PROJETO
+
+
+
+
+//ARRENDONDAR VALOR DECIMAL
+//DecimalFormat deci= new DecimalFormat("0.00");
+// deci.format(valor));
+
+
+
+// OUTRO TIPO DE FAZER CONDICAO IF ELSE
+ //imposto = salarioBruto * (salarioBruto <= 1100.00 ? 0.05 : salarioBruto > 2500.00 ? 0.15 : 0.10);
+ 
+ 
+ //PRA BOTAR MAIS UM DECIMAL APÓS A VIRULA %.2f   
+ //EXEMLPLO: DETALHE QUE O printf TERMINA COM F
+ // System.out.printf("%.2f", salarioLiquido);10,00
+ 
 
       
     }
